@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_Kami_Sosa", "Practica_Kami_Sosa.csproj", "{799A02C3-87AB-452F-91B7-E7D32FDBC798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799A02C3-87AB-452F-91B7-E7D32FDBC798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799A02C3-87AB-452F-91B7-E7D32FDBC798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799A02C3-87AB-452F-91B7-E7D32FDBC798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799A02C3-87AB-452F-91B7-E7D32FDBC798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7856BDB6-9A38-4115-A630-2F12EC0370B2}
+	EndGlobalSection
+EndGlobal
