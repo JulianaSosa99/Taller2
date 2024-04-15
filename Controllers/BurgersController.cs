@@ -47,11 +47,12 @@ namespace Practica_Kami_Sosa.Controllers
         {
             return View();
         }
+        //Este metodo llama a la lista, le presenta el formulario en blanco al usuario
 
         // POST: Burgers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost] //algun conjunto de datos nos llega desde el formulario
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("BurgerID,Nombre,WithCheese,precio")] Burger burger)
         {
@@ -63,7 +64,7 @@ namespace Practica_Kami_Sosa.Controllers
             }
             return View(burger);
         }
-
+        //recoge lo que el usuario pone en el formulario y lo pone en la vase de datos.
         // GET: Burgers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
