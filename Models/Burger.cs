@@ -14,6 +14,10 @@ namespace Practica_Kami_Sosa.Models
 
      [Range(0.01, 9999.99)]
      public decimal precio { get; set; }
+      
+        //se relaciona con una lista de atributos otra clase
+        //
+    public List<Promo>? Promo { get; set; }
 
     }
 }
