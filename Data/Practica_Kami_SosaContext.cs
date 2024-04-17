@@ -11,6 +11,8 @@ using Practica_Kami_Sosa.Models;
             : base(options)
         {
         }
-
+    //Aumentar la tabla dentro del contexto
         public DbSet<Practica_Kami_Sosa.Models.Burger> Burger { get; set; } = default!;
-    }
+        public DbSet<Practica_Kami_Sosa.Models.Promo> Promo { get; set; } = default!;
+
+}
