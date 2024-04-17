@@ -64,7 +64,7 @@ namespace Practica_Kami_Sosa.Controllers
             }
             return View(burger);
         }
-        //recoge lo que el usuario pone en el formulario y lo pone en la vase de datos.
+        //recoge lo que el usuario pone en el formulario y lo pone en la base de datos.
         // GET: Burgers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -88,6 +88,7 @@ namespace Practica_Kami_Sosa.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("BurgerID,Nombre,WithCheese,precio")] Burger burger)
         {
+//COMENTARIO
             if (id != burger.BurgerID)
             {
                 return NotFound();
